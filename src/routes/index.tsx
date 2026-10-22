@@ -111,7 +111,7 @@ function Index() {
         </div>
         <div className="mx-auto mt-16 grid max-w-6xl gap-6 px-6 md:grid-cols-2">
           {[slide1, slide2].map((s) => (
-            <img key={s} src={s} alt="" className="aspect-[16/7] w-full rounded-2xl object-cover" />
+            <img key={s} src={s} alt="" className="aspect-[16/7] w-full rounded-2xl object-cover object-left" />
           ))}
         </div>
       </section>
