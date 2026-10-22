@@ -132,6 +132,7 @@ function Index() {
           <a href="#kontakt" className="flex flex-col justify-end bg-accent p-8 text-accent-foreground">
             <span className="font-display text-2xl">Potrebujete nasvet?</span>
             <span className="mt-2 text-sm font-semibold">Pogovorimo se →</span>
+            <span className="mt-8 font-display text-xl">Pokličite 01 2000 170</span>
           </a>
         </div>
       </section>
@@ -166,6 +167,10 @@ function Index() {
             <a href="mailto:info@omegaconsult.si" className="mt-6 inline-block font-display text-2xl text-accent underline-offset-8 hover:underline md:text-3xl">
               info@omegaconsult.si
             </a>
+            <br />
+            <a href="tel:+38612000170" className="mt-3 inline-block font-display text-2xl text-accent underline-offset-8 hover:underline md:text-3xl">
+              01 2000 170
+            </a>
           </div>
           <address className="not-italic leading-loose text-ink-foreground/80">
             <strong className="text-ink-foreground">OMEGA consult, d.o.o., Ljubljana</strong>
@@ -173,6 +178,10 @@ function Index() {
             Gregorčičeva ulica 7
             <br />
             1000 Ljubljana
+            <br />
+            <a href="tel:+38612000170" className="text-ink-foreground underline-offset-4 hover:text-accent hover:underline">
+              telefon: 01 2000 170
+            </a>
           </address>
         </div>
         <div className="mx-auto mt-16 max-w-6xl border-t border-ink-foreground/15 px-6 pt-6 text-sm text-ink-foreground/50">
